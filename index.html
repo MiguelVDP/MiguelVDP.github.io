@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Miguel Vidal De La Plaza</title>
+        <title>Portfolio | Miguel Vidal</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -15,6 +15,8 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -70,7 +72,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/Splash_Art_titulo_FF.png" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -122,7 +124,7 @@
             </div>
         </section>
         <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
+        <section class="page-section bg-dark text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
@@ -255,6 +257,26 @@
             <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
         </div>
         <!-- Portfolio Modals-->
+
+        <!-- Modal Video -->
+        <div class="modal fade" id="modalVideo" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Video -->
+
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -265,17 +287,36 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Frozen Fury</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-book-reader"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <section class="portfolio below-padding">
+                                        <div class="container-fluid">
+                                            <div class="portfolio-item mx-auto video-btn" data-bs-toggle="modal"
+                                                 data-src="https://www.youtube.com/embed/RRqtnf75f0c"
+                                                 data-bs-target="#modalVideo">
+                                                <div
+                                                    class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                    <div class="portfolio-item-caption-content text-center text-white"
+                                                         style="font-size: 5em">
+                                                        <i class="fab fa-youtube">
+        
+                                                        </i>
+                                                    </div>
+                                                </div>
+                                                <img class="img-fluid rounded" src="assets/img/portfolio/Splash_Art_titulo_FF.png">
+                                            </div>
+                                        </div>
+                                    </section>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">Frozen fury is the resulting product of a university proyect in which my collegues and I were told to create a videogame that could run in web.
+                                        The game is now available in <a href="https://thenides-ra.itch.io/frozen-fury">itch.io</a> and the trailer has been out for a while too.
+                                    </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
